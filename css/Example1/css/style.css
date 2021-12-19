@@ -1,0 +1,47 @@
+body{
+    background-color: azure;
+}
+
+header{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    color: brown;
+}
+
+h2{
+    color: blueviolet;
+}
+h3{
+    color: aqua;
+}
+h4{
+    color: chocolate;
+}
+article{
+    text-align: center;
+}
+ol{
+    display: inline-block;
+    text-align: center;
+}
+ol li{
+    margin-bottom: 10px;
+}
+
+ul{
+    display: inline;
+    list-style-type: none;
+}
+
+footer{
+    text-align: center;
+}
+p, h4{
+    text-align: left;
+}
+
