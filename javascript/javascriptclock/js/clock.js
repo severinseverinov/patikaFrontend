@@ -38,7 +38,7 @@ function isim() {
       gun = "Cumartesi";
     }
   
-    let tarihBilgisi = `${saat}:${dakika}:${saniye} ${gun}`;
+    let tarihBilgisi = `${saat}:${dakika}:${saniye}-${gun}`;
     document.getElementById("myClock").innerHTML = tarihBilgisi;
   
     setTimeout(showTime, 1000);
