@@ -1,3 +1,4 @@
-let person={name:"Selin",city:"Ankara",favoriteColor:"aqua blue"}; 
-let {name:foo}=person;
-console.log(foo)
+fetch("https://jsonplaceholder.typicode.com/comments")
+    .then((response) => response.json())
+    .then((json) => json.forEach((item) => console.log(item.email)))
+    .catch((err) => console.log(err))
